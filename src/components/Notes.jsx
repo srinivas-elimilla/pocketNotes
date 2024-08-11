@@ -11,7 +11,7 @@ const Notes = ({ tab, active, setTab }) => {
         <Note tab={tab} active={active} setTab={setTab} />
       ) : (
         <div
-          className={`notes-container ${
+          className={`home-notes-container ${
             isMobile && active ? "display-block" : "disply-none"
           }`}
         >
